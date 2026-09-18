@@ -1,0 +1,30 @@
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Runtime directories & generated files
+runs/
+violation_snapshots/
+violation_logs/
+processed/
+uploads/
+*.log
+
+# Environment & IDE
+.env
+.vscode/
+.idea/
+
+# Large test videos
+source_files/video_1.mp4
+source_files/video_2.mp4
+source_files/video_3.mp4
+source_files/hardhat.mp4
